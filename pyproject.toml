@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "iflow-mcp_overtlids_mcp-searxng-enhanced"
-version = "1.1.0"
+version = "1.1.1"
 description = "A Model Context Protocol (MCP) server for category-aware web search, website scraping, and date/time tools"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -36,7 +36,7 @@ dependencies = [
 ]
 
 [project.scripts]
-iflow-mcp-overtlids-mcp-searxng-enhanced = "mcp_server:main"
+iflow-mcp-overtlids-mcp-searxng-enhanced = "mcp_server:run_sync"
 
 [project.urls]
 Homepage = "https://github.com/OvertliDS/mcp-searxng-enhanced"
